@@ -1,0 +1,124 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#ciao {
+    background-color: #333333;
+    background-image: url(https://fastly.picsum.photos/id/738/1240/768.jpg?hmac=qDTnV1lYCERSe9fmQJAtrYXdnoD4K8g24f9vVm8IijY);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+#ciao h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.tagline {
+    color: rgba(255, 0, 0, 0.7);
+    font-style: italic;
+}
+
+nav a {
+    color: #72ab79;
+    font-weight: bold;
+    line-height: 3;
+}
+
+nav a:hover {
+    color: #f44a4a;
+    background-color: rgba(67, 98, 26, 0.3);
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #1F3D7A;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #1F3D7A;
+    text-align: left;
+}
+
+#chisono {
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+#chisono p:first-of-type {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #1F3D7A;
+}
+
+.skill-list li:nth-child(odd) {
+    background-color: #ebf1fc;
+
+}
+
+.skill-list li:nth-child(even) {
+    background-color: #c3cde2;
+}
+
+.skill-list li:first-child {
+    font-weight: bold;
+}
+
+.project:nth-of-type(odd) {
+    background-color: #fdeee5;
+}
+
+.project:nth-of-type(even) {
+    background-color: #f2fff0;
+}
+
+label {
+    font-weight: bold;
+    color: #1F3D7A;
+}
+
+input,
+textarea {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    width: auto;
+    background-color: rgb(255, 230, 205);
+}
+
+input:focus,
+textarea:focus {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+button {
+    color: #ffffff;
+    background-color: #1f3d7a;
+    font-weight: bold;
+    width: 30%;
+}
+
+button:hover {
+    background-color: #f44a4a;
+}
+
+#sitefooter {
+    background-color: #0a0d45;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+#nav {
+    text-align: center;
+}
