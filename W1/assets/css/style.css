@@ -112,6 +112,8 @@ h3 {
     float: left;
     margin-right: 6px;
     color: #ff6f00;
+    line-height: 0.7;
+    margin-top: -6px;
 }
 
 .skill-list li:nth-child(odd) {
